@@ -98,4 +98,7 @@ DATA MODELLING AND TRAINING:
   4. SVM
 
 CONCLUSION:
+
+![Capture2](https://user-images.githubusercontent.com/88664785/146652256-fade4377-6823-46df-a080-b633999f1257.PNG)
+
 Among all the Classifiers used here, K Nearest Neighbour classifier has the best performance with highest RECALL and F1 SCORE of 89%.
