@@ -1,26 +1,26 @@
-# Cardiovascular-disease-prediction
+# CARDIOVASCULAR-DISEASE-PREDICTION
 
-INTRODUCTION
+## INTRODUCTION
 
 Heart disease is one the major cause of moribity and mortality globally. A heart attack happens when the flow of oxygen-rich blood to a section of heart muscle suddenly becomes blocked and the heart can’t get oxygen. If blood flow isn’t restored quickly, the section of heart muscle begins to die.
 
 Doctors and Scientists across the globe have started to look into Machine Learning Techniques to develop screening tools.
 
-OBJECTIVE:
+## OBJECTIVE:
 
 In this project, we shall be giving you a walk through on the development of a screening tool for predicting whether a patient has a 10-year risk of developing coronary heart disease (CHD) based on their present health conditions using different Machine Learning Techniques.
 
-PROBLEM STATEMENT:
+## PROBLEM STATEMENT:
 
 Heart disease is the leading cause of morbidity and mortality worldwide, killing more people each year than any other cause.
 In this project, we shall be giving you a walk through on the development of a screening tool for predicting whether a patient has a 10-year risk of developing coronary heart disease (CHD) using different Machine Learning techniques.
 The given dataset provides the patients’ information. It includes over 3,390 records and 17 attributes. Each attribute is a potential risk factor. There are both demographic, behavioural, and medical risk factors given for the analysis.
 
-Data Description: 
+## Data Description: 
 
 ![Chd-description](https://user-images.githubusercontent.com/88664785/146651828-20d91fb7-1e48-47e3-a7cc-31ef015accec.PNG)
 
-PROJECT WORKFLOW:
+## PROJECT WORKFLOW:
 
 1. Data Cleaning
 2. Checking for Duplicates – None found
@@ -36,7 +36,7 @@ PROJECT WORKFLOW:
 12. Model Training, Testing & Hyper-Parameter Tuning
 13. Performance Comparison
 
-DATA CLEANING:
+## DATA CLEANING:
 
 Handling NaN Values:
 
@@ -48,7 +48,7 @@ Outlier Treatment:
  totChol has values > 600
  Replacing that with 500
 
-FEATURE ENGINEERING:
+## FEATURE ENGINEERING:
 
 Binary Encoding / One-Hot Encoding:
 
@@ -61,7 +61,7 @@ Binary Encoding / One-Hot Encoding:
  Both these are co-related with each other (78%).
  avgBP = (sysBP+diaBP)/2
  
- EDA:
+ ## EDA:
  
  EDA on Features – Age & Smoking:
   Risk is High in age group of (42 to 45),(56 to 58) and age above 62 despite they are smoking or not.
@@ -74,7 +74,7 @@ Binary Encoding / One-Hot Encoding:
    Non Diabetic – Less risk of heart disease.
    Diabetic – High risk of heart disease
    
-  Handling Imbalance Data:
+  ## Handling Imbalance Data:
   
   Common Methods to Handle Imbalance Data
    1. Under sampling the majority class
@@ -82,13 +82,13 @@ Binary Encoding / One-Hot Encoding:
    3. SMOTE
       Synthetic Minority Over Sampling Technique Reduces overfitting during oversampling Synthetic Sampling is used.
       
-   Evaluation Metrics:
+   ## Evaluation Metrics:
     1. Recall
     2. F1 Score
     3. ROC Curve
     
     
-DATA MODELLING AND TRAINING:
+## DATA MODELLING AND TRAINING:
 
  We shall study the following training models:
  
@@ -97,7 +97,7 @@ DATA MODELLING AND TRAINING:
   3. Decision Tree
   4. SVM
 
-CONCLUSION:
+## CONCLUSION:
 
 ![Capture2](https://user-images.githubusercontent.com/88664785/146652256-fade4377-6823-46df-a080-b633999f1257.PNG)
 
